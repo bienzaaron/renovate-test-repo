@@ -9,7 +9,7 @@
         "node-version"
       ],
       "registryUrls": [
-        "https://mynodejsmirror.com/some/dir"
+        "http://mynodejsmirror.com:3000/some/dir"
       ]
     },
     {
@@ -17,7 +17,7 @@
         "npm"
       ],
       "registryUrls": [
-        "https://mynpmregistry.com/some/other/dir/"
+        "http://mynpmregistry.com:3000/some/other/dir/"
       ]
     }
   ]
