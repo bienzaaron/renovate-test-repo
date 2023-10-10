@@ -5,3 +5,5 @@
 127.0.0.1 registry.npmjs.org
 
 killall nginx; nginx -c $(pwd)/nginx.conf -e $(pwd)/access.log
+
+verdaccio -l http://mynpmregistry.com:3001
