@@ -11,7 +11,7 @@
         "node-version"
       ],
       "registryUrls": [
-        "http://mynodejsmirror.com:3000/some/dir"
+        "http://mynodemirror.com:3000/some/dir"
       ]
     },
     {
