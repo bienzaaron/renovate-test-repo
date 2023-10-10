@@ -1,14 +1,17 @@
 {
-  "$ref": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchDatasource": "node-version",
+      "matchDatasources": [
+        "node-version"
+      ],
       "registryUrls": [
         "mynodejsmirror.com/some/dir"
       ]
     },
     {
-      "matchDatasource": "npm",
+      "matchDatasources": [
+        "npm"
+      ],
       "registryUrls": [
         "mynpmregistry.com/some/other/dir/"
       ]
