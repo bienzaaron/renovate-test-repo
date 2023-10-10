@@ -1,11 +1,15 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranches": [
+    "main"
+  ],
   "packageRules": [
     {
       "matchDatasources": [
         "node-version"
       ],
       "registryUrls": [
-        "mynodejsmirror.com/some/dir"
+        "https://mynodejsmirror.com/some/dir"
       ]
     },
     {
@@ -13,7 +17,7 @@
         "npm"
       ],
       "registryUrls": [
-        "mynpmregistry.com/some/other/dir/"
+        "https://mynpmregistry.com/some/other/dir/"
       ]
     }
   ]
