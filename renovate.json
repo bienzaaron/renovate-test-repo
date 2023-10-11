@@ -3,9 +3,6 @@
   "baseBranches": [
     "main"
   ],
-  "registryUrls": [
-    "http://mynodemirror.com:3000/some/dir"
-  ],
   "prConcurrentLimit": 0,
   "prHourlyLimit": 0,
   "packageRules": [
